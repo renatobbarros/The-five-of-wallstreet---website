@@ -862,7 +862,7 @@ body {
 }
 
 /* Header */
-.site-header{background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.85));backdrop-filter:blur(6px);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(15,23,36,0.04)}
+.site-header{background:linear-gradient(180deg, rgba(227,242,253,0.7), rgba(227,242,253,0.95));backdrop-filter:blur(6px);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(15,23,36,0.04)}
 .header-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem}
 .brand{font-family:'Playfair Display', Georgia, serif;font-weight:700;color:var(--brand);text-decoration:none;font-size:1.1rem}
 
@@ -877,7 +877,7 @@ body {
 .hamburger::after{top:6px}
 
 /* Hero */
-.hero{padding:3.5rem 0;background:linear-gradient(180deg,#eef2ff 0%, #f7fafc 60%)}
+.hero{padding:3.5rem 0;background:linear-gradient(180deg,#D1E9F6 0%, #E3F2FD 60%)}
 .hero-inner{display:grid;grid-template-columns:1fr;gap:1.25rem;align-items:center}
 .hero h1{margin:0 0 .5rem 0;font-family:'Playfair Display',serif;font-size:2.2rem;color:#04112b}
 .lead{color:var(--muted);margin-bottom:1rem;font-size:1.05rem}
@@ -894,7 +894,7 @@ body {
 
 /* Grid de cards */
 .grid{display:grid;grid-template-columns:1fr;gap:1rem}
-.card{background:var(--card);padding:1.15rem;border-radius:12px;box-shadow:0 6px 16px rgba(9,30,66,0.04);border:1px solid rgba(9,30,66,0.03)}
+.card{background:#E3F2FD;padding:1.15rem;border-radius:12px;box-shadow:0 6px 16px rgba(9,30,66,0.04);border:1px solid rgba(9,30,66,0.03)}
 .card h3{margin-top:0}
 .read-more{display:inline-block;margin-top:.65rem;color:var(--brand);text-decoration:none;font-weight:600}
 
@@ -906,7 +906,7 @@ body {
 .contact-form{max-width:700px}
 .form-row{display:flex;flex-direction:column;margin-bottom:.75rem}
 .form-row label{font-weight:600;margin-bottom:.35rem}
-.form-row input,.form-row textarea{padding:.6rem .75rem;border-radius:8px;border:1px solid rgba(9,30,66,0.08);background:#fff}
+.form-row input,.form-row textarea{padding:.6rem .75rem;border-radius:8px;border:1px solid rgba(9,30,66,0.08);background:#E3F2FD}
 .form-row input:focus,.form-row textarea:focus{outline:none;box-shadow:0 6px 14px rgba(11,61,145,0.08)}
 
 /* Footer */
