@@ -580,6 +580,123 @@ body {
 }
 
 /* ================================
+   MOBILE MASTERY FEATURED
+   ================================ */
+.mobile-hero {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.mobile-featured-card {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(0, 240, 255, 0.05));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 2px solid var(--gold);
+  border-radius: var(--radius-lg);
+  padding: 4rem 3rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-shadow: 0 30px 80px rgba(212, 175, 55, 0.3);
+}
+
+.mobile-featured-card:hover {
+  transform: translateY(-12px) scale(1.02);
+  border-color: var(--gold-light);
+  box-shadow: 0 40px 100px rgba(212, 175, 55, 0.5);
+}
+
+.mobile-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 2rem;
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-icon svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 8px 24px rgba(212, 175, 55, 0.4));
+}
+
+.card-tag-featured {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  background: rgba(212, 175, 55, 0.15);
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--gold);
+}
+
+.mobile-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 900;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+}
+
+.mobile-description {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 2.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(212, 175, 55, 0.08);
+  border-radius: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  background: rgba(212, 175, 55, 0.15);
+  transform: translateX(8px);
+}
+
+.feature-item svg {
+  width: 24px;
+  height: 24px;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+
+.feature-item span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* ================================
    CONSELHO / TEAM SECTION
    ================================ */
 .conselho-grid {
